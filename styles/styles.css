@@ -1,0 +1,23 @@
+h1 {
+    color: #b32a2a;
+    font-size: 1.7rem;
+}
+
+/*Grey box*/
+.headerbox {
+    background-color: #f4f4f481;
+    padding: 1rem;
+    /*Space around text*/
+}
+
+/*Section headings(Ingredienser, Så här gör du, Serveringsförslag)*/
+h2 {
+    font-size: 1.3rem;
+    margin-block-start: 1.3rem;
+}
+
+ul,
+ol {
+    line-height: 1.6;
+    padding-left: 1.5rem; /*Indent*/
+}
