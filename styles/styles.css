@@ -1,11 +1,11 @@
 h1 {
     color: #b32a2a;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 /*Grey box*/
 .headerbox {
-    background-color: #f4f4f481;
+    background-color: #f4f4f4ad;
     padding: 1rem;
     /*Space around text*/
 }
@@ -21,3 +21,28 @@ ol {
     line-height: 1.6;
     padding-left: 1.5rem; /*Indent*/
 }
+
+body {
+    font-family: "open sans";
+    background-color: #a100004d;
+    margin: 0;
+    padding: 0 0 3rem 0; /*top right bottom left*/
+    max-width: 2000px;
+}
+
+.recipe {
+    background-color: #fcfcfc;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-image {
+    min-height: 500px; /*Required minimum*/
+    width: 100%; /*match .recipe*/
+    object-fit: cover; /*Prevents distortion*/
+}
+
+.content-wrapper {
+    padding: 0 2rem 2rem 2rem; /*top right bottom left*/
+}
+
