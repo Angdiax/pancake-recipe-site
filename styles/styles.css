@@ -1,70 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 body {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif; /*backup fonts*/
-    font-size: 16px;
-    background-color: #a100004d;
-    margin: 0;
-    padding: 0; /*control*/
-    padding-bottom: 64px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; /*backup fonts*/
+  font-size: 16px;
+  background-color: #a100004d;
+  margin: 0;
+  padding: 0; /*control*/
+  padding-bottom: 64px;
 }
 
 h1 {
-    color: #A10000;
-    font-size: 28px;
+  color: #a10000;
+  font-size: 28px;
 }
 
-.headerbox { /*Grey box*/
-    background-color: #EBEBEB;
-    padding: 16px;/*Space around text*/
+.headerbox {
+  /*Grey box*/
+  background-color: #ebebeb;
+  padding: 16px; /*Space around text*/
 }
 
-h2 { /*Section headings(Ingredienser, Så här gör du, Serveringsförslag)*/
-    font-size: 24px;
+h2 {
+  /*Section headings(Ingredienser, Så här gör du, Serveringsförslag)*/
+  font-size: 24px;
 }
 
 ul,
 ol {
-    line-height: 2;
-    padding-left: 1.25rem; /* ~20px, more natural spacing */
-    margin: 0 0 1rem 0;   /* adds breathing room below lists */
+  line-height: 2;
+  padding-left: 1.25rem; /* ~20px, more natural spacing */
+  margin: 0 0 1rem 0; /* adds breathing room below lists */
 }
 
 .recipe-page {
-    background-color: #fcfcfc;
-    max-width: 1280px;
-    margin: 0 auto; /*centres content inside horizontally*/
-    display: grid;
-    grid-template-rows: 1fr; /*removing default behaviour of the semantic elements e.g. main (padding issues without this)*/
+  background-color: #fcfcfc;
+  max-width: 1280px;
+  margin: 0 auto; /*centres content inside horizontally*/
+  display: grid;
+  grid-template-rows: 1fr; /*removing default behaviour of the semantic elements e.g. main (padding issues without this)*/
 }
 
 .header-image {
-    height: 500px;
-    width: 100%; /*match .recipe*/
-    object-fit: cover; /*prevents distortion*/
+  height: 500px;
+  width: 100%; /*match .recipe*/
+  object-fit: cover; /*prevents distortion*/
 }
 
 .recipe {
-    padding: 48px 48px 64px 48px; /*top right bottom left*/
+  padding: 48px 48px 64px 48px; /*top right bottom left*/
 }
 
 .image-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /*2 equal columns*/
-    gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*2 equal columns*/
+  gap: 24px;
 }
 
 .image-grid img {
-    width: 100%;
-    height: 467px;
-    object-fit: cover; /*Prevents distortion*/
+  width: 100%;
+  height: 467px;
+  object-fit: cover; /*Prevents distortion*/
 }
 
 @media (max-width: 700px) {
-    .image-grid {
-        grid-template-columns: 1fr; /*1 column*/
-    }
-    .recipe {
-        padding: 48px 16px 64px 16px;
-    }
+  .image-grid {
+    grid-template-columns: 1fr; /*1 column*/
+  }
+  .recipe {
+    padding: 48px 16px 64px 16px;
+  }
 }
