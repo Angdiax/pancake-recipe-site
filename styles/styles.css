@@ -55,7 +55,13 @@ ol {
   grid-template-columns: 1fr 1fr; /*2 equal columns*/
   gap: 24px;
 }
+figure {
+  margin: 0; /* remove default browser spacing around figures */
+}
 
+figure img {
+  display: block; /* prevents inline image whitespace */
+}
 .image-grid img {
   width: 100%;
   height: 467px;
